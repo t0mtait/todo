@@ -1,6 +1,6 @@
 # todo
 
-create and complete tasks in this persistant todo list built with postgres
+create and complete tasks in this persistent todo list built with postgres
 
 ![image](https://github.com/t0mtait/todo/assets/109391390/bc3c7d7e-2459-407c-9d41-fe8e6c728f52)
 ![image](https://github.com/t0mtait/todo/assets/109391390/2c294534-4dd5-4e04-a187-c399b2f02f2a)
