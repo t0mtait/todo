@@ -1,0 +1,16 @@
+<head>
+    <title>permalist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <div class="grid grid-rows-none bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+        <div class = "mb-4">
+            <%- include('partials/todo') %>
+        </div>
+        <%- include('partials/forms') %>
+        <div class = "mb-4">
+            <%- include('partials/completed') %>
+        </div>
+    </div>
+</body>

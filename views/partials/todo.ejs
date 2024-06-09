@@ -1,0 +1,18 @@
+<div class="todo">
+    <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Todos:</h2>
+            <% if (locals.todos.length > 0) { %>
+                <ul class="max-w-md space-y-1 text-gray-900 list-disc list-none list-inside dark:text-gray-100">
+                    <% todos.forEach(function(todo) { %>
+                        <li style="display: flex; align-items: center;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="m10.933 13.519-2.226-2.226-1.414 1.414 3.774 3.774 5.702-6.84-1.538-1.282z"></path><path d="M19 3H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zM5 19V5h14l.002 14H5z"></path></svg>
+                            <%= todo %>
+                        </li>
+    
+                    <% }) %>
+                </ul>
+            <% } else { %>
+                <p style="color: white">
+                    no todos!
+                </p>
+            <% } %>
+</div>
